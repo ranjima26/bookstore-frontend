@@ -37,7 +37,7 @@ function App() {
     <>
 
       <Routes>
-        {/* common */}
+        {/* common for all users */}
         {/* here the loader is set for 5 seconds when the home page is shown */}
         <Route path='/' element={loader ? <PreLoader /> : <LandingPage />} />
         <Route path='/contact' element={<Contact />} />
